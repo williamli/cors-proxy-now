@@ -1,0 +1,16 @@
+{
+  "name": "cors-proxy-now",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "^10"
+  },
+  "dependencies": {
+    "cors-anywhere": "^0.4.1"
+  },
+  "devDependencies": {
+    "micro": "^9.3.4",
+    "micro-dev": "^3.0.0"
+  }
+}

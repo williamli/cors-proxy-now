@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "cors-proxy-now",
+  "builds": [{"src": "index.js", "use": "@now/node@0.11.1"}],
+  "routes": [{"src": "\/(.*)", "dest": "/index.js"}]
+}
